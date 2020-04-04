@@ -1,0 +1,48 @@
+.img {
+    background: url("https://images.unsplash.com/photo-1513781050488-6dd358209a1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80");
+    width: 100%;
+    height: 335px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    margin: auto;
+}
+
+.hoverEffect {
+    background-color: rgba(114, 153, 46, 0.5);
+    width: 100%;
+    height: 50%;
+    margin-top: 40%;
+    display: none;
+}
+
+.btn {
+    margin: 0 31%;
+    border-radius: 0;
+    color: white;
+}
+
+.pos {
+    margin: 1.2rem auto;
+    width: fit-content;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.card {
+    width: 20%;
+    margin: 3rem auto;
+}
+
+.price {
+    width: 100%;
+}
+
+.priceColour {
+    background-color: yellow;
+    font-size: 2.5rem;
+}
