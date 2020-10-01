@@ -1,5 +1,6 @@
 .brand {
-    font-size: 6.25rem;
+    font-size: 5.9rem;
+    color: rgba(0, 119, 255, 0.849);
 }
 
 .welcome {
@@ -8,5 +9,11 @@
 
 .btn {
     margin-bottom: 3rem;
+    animation-delay: 1.5s;
+}
+
+.btn:hover {
+    margin-bottom: 3rem;
+    transform: scale(1.09);
     animation-delay: 1.5s;
 }
