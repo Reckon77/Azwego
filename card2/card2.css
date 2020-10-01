@@ -3,6 +3,11 @@
     box-shadow: 5px 10px 18px #888888;
 }
 
+.card:hover {
+    margin: 2rem auto;
+    transform: scale(1.09);
+}
+
 .rating {
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
