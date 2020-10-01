@@ -9,10 +9,11 @@
 
 h2 {
     margin: auto;
+    color: 	rgb(255, 0, 0);
 }
 
 .hoverEffect {
-    background-color: rgba(114, 153, 46, 0.5);
+    background-image: linear-gradient(to right top, #cd222265, #d34e2975, #d86c36b6, #dd89488e, #e1a06093, #e7b06883, #ebbe71a6, #f0cc7b, #f3d773, #f3e26b, #f0ee64, #e9fb5f);
     width: 100%;
     height: 50%;
     margin-top: 40%;
