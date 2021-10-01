@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="card3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="card" style="width: 18rem;">
+        <div class="img">
+            <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2020/02/Cover-for-Places-To-Visit-In-Guwahati-In-May_4th-feb.jpg" class="card-img-top" alt="..." style="width: 100%;">
+            <div class="top-right rating">4.7 <i class="fas fa-star"></i></div>
+            <div class="centered rating">4.7 <i class="fas fa-star"></i></div>
+        </div>
+        <div class="card-body">
+            <div class="d-flex justify-content-between">
+                <h5 class="card-title">Guwahati</h5>
+                <span class="text-success"><i class="fas fa-rupee-sign"></i> 4000</span>
+            </div>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nihil. Deleniti dignissimos doloribus aliquam alias!</p>
+            <div class="text-center">
+                <a href="#" class="btn btn-outline-success btn-sm">Read more <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
+    <script>
+        // d-flex flex-column justify-content-center
+
+        $(".card").on('mouseenter', function() {
+            $(".top-right").fadeOut(250)
+            $(".centered").fadeIn(250)
+        })
+        $(".card").on('mouseleave', function() {
+            $(".centered").fadeOut(250)
+            $(".top-right").fadeIn(250)
+        })
+    </script>
+</body>
+
+</html>
