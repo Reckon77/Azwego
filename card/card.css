@@ -15,8 +15,8 @@ h2 {
 .hoverEffect {
     background-image: linear-gradient(to right top, #cd222265, #d34e2975, #d86c36b6, #dd89488e, #e1a06093, #e7b06883, #ebbe71a6, #f0cc7b, #f3d773, #f3e26b, #f0ee64, #e9fb5f);
     width: 100%;
-    height: 50%;
-    margin-top: 40%;
+    height: 42.5%;
+    margin-top: 35%;
     display: none;
 }
 
@@ -37,6 +37,7 @@ h2 {
 .card {
     width: 20%;
     margin: 3rem auto;
+    text-align: center;
 }
 
 .price {
@@ -44,6 +45,9 @@ h2 {
 }
 
 .priceColour {
-    background-color: yellow;
+    background-color: rgba(248, 248, 108, 0.527);
+    width: 100%;
     font-size: 2.5rem;
+    color: white;
+    text-align: center;
 }
